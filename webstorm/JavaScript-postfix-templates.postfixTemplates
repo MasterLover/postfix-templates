@@ -2,3 +2,8 @@
 
 .llog : Inserts a console.log  with linenumbercall.
 	ANY  →  console.log("Line:[$VAR:lineNumber()$] \t ", $expr$)
+
+.tout : set timeout.
+	ANY  →  setTimeout(() => { \
+    			$END$\
+  			}, $expr$)
