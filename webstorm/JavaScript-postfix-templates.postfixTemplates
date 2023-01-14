@@ -6,7 +6,7 @@
 
 .tout : set timeout.
 	ANY  →  setTimeout(() => { \
-    			$END$\
+    			$END$ \
   			}, $expr$)
 
 
