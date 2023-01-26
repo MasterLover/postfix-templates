@@ -1,7 +1,7 @@
 ## js  ts  operations ##
 
 .llog : Inserts a console.log  with linenumbercall.
-	ANY  →  console.log("Line:[$VAR:lineNumber()$] \t ", $expr$)
+	ANY  →  console.log("Line:[$LINE*:lineNumber():""$] \t ", $expr$)
 
 
 .tout : set timeout.
