@@ -1,5 +1,5 @@
 ## java  operations ##
 
 .hlog : Inserts a log.info .
-	ANY  →  log.info("【$expr$】 $END$  Case：$END$  ")
+	ANY  →  log.info("【"$expr$"】 $END$  Case：$END$  ")
 
